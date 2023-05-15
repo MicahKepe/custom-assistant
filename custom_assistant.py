@@ -21,14 +21,12 @@ conversation = [
         {"role": "system", "content": f"Your name is {model} and you're an assistant for {your_name}."},
     ]
 
-# print(conversation)
-
 while True:
     with mic as source:
         r.adjust_for_ambient_noise(source)  # Can set the duration with duration keyword
 
         # Uncomment if you want model to greet you
-        # print("How may I help you?")
+        # print(f"{model}: How may I help you?")
         # voice.generate_and_play_audio("How may I help you?", playInBackground=False)
 
         print("Speak now...")
@@ -78,8 +76,8 @@ while True:
                 # Print GPT's response
                 print(f"{model}: {message}")
 
-                # Uncomment to have model speak response
-                # voice.generate_and_play_audio(message, playInBackground=False)
+                # Have model speak generated response
+                voice.generate_and_play_audio(message, playInBackground=False)
                 print("=====")
 
         except Exception as e:
