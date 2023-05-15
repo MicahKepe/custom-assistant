@@ -19,4 +19,4 @@ Create a customizable speaking assistant with ElevenLabs and ChatGPT
    ```
 3. Enter keys at the top of the program. 
 4. Enter your name and the name of the model as it appears in the "VoiceLab" section of your ElevenLabs account. 
-5. Run `custom_assistant.py` and enjoy! You will be prompted when to ask your question and the program can be ended by saying the instruction "That is all".  
+5. Run `custom_assistant.py` and enjoy! You will be prompted when to ask your question and the program can be ended by saying the instruction "That is all."  
