@@ -1,5 +1,5 @@
 # custom-assistant
-Create a customizable speaking assistant with ElevenLabs and ChatGPT
+Create a customizable speaking assistant with ElevenLabs and ChatGPT in Python.
 
 <!-- GETTING STARTED -->
 ## Getting Started
