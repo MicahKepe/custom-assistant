@@ -1,5 +1,7 @@
 # custom-assistant
-Create a customizable speaking assistant with ElevenLabs and ChatGPT in Python.
+First iteration of a customizable speaking assistant with ElevenLabs and ChatGPT in Python. 
+
+🚨 For a more updated version of this project, check out [custom-assistant2.0](https://github.com/micahkepe/custom_assistant2.0). 🚨
 
 <!-- GETTING STARTED -->
 ## Getting Started
